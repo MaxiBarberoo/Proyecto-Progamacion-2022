@@ -1,0 +1,3 @@
+C:/Users/mbarb/Escritorio/Proyecto-Progamacion-2022/cmake-build-debug/CMakeFiles/Proyecto_Programacion_II.dir
+C:/Users/mbarb/Escritorio/Proyecto-Progamacion-2022/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mbarb/Escritorio/Proyecto-Progamacion-2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir
