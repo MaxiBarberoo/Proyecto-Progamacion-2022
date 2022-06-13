@@ -19,6 +19,7 @@ public:
     void cambiar_estado_empleado();
 
     void Mostrar_empleado();
+    void Mostrar_todos_empleados();
 private:
     std::vector<Profesional> m_empleados_profesionales;
     std::vector<Administrativo> m_empleados_administrativos;

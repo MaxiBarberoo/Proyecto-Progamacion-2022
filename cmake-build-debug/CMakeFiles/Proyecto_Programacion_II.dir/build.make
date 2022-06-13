@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\win10\Desktop\Proyecto-Progamacion-2022
+CMAKE_SOURCE_DIR = C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto_Programacion_II.dir/depend.make
@@ -71,100 +71,100 @@ include CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\main.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\main.cpp > CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\main.cpp > CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\main.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\main.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\main.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj: ../Empleado.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Empleado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Empleado.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Empleado.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Empleado.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Empleado.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Empleado.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Empleado.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Empleado.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj: ../Profesional.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Profesional.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Profesional.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Profesional.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Profesional.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Profesional.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Profesional.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Profesional.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Profesional.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj: ../Administrativo.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Administrativo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Administrativo.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Administrativo.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Administrativo.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Administrativo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Administrativo.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Administrativo.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Administrativo.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj: ../Cuenta.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Cuenta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Cuenta.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Cuenta.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Cuenta.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Cuenta.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Cuenta.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Cuenta.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Cuenta.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj: ../Tarjeta_de_credito.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Tarjeta_de_credito.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Tarjeta_de_credito.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Tarjeta_de_credito.cpp.s
 
 CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/flags.make
 CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj: ../Sistema_de_gestion.cpp
 CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj: CMakeFiles/Proyecto_Programacion_II.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.obj -c C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj"
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.obj -MF CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.obj.d -o CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.obj -c C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp
 
 CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.i
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp > CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.i
 
 CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_Programacion_II.dir/Sistema_de_gestion.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.s
+	"C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\Sistema_de_gestion.cpp -o CMakeFiles\Proyecto_Programacion_II.dir\Sistema_de_gestion.cpp.s
 
 # Object files for target Proyecto_Programacion_II
 Proyecto_Programacion_II_OBJECTS = \
@@ -190,7 +190,7 @@ Proyecto_Programacion_II.exe: CMakeFiles/Proyecto_Programacion_II.dir/build.make
 Proyecto_Programacion_II.exe: CMakeFiles/Proyecto_Programacion_II.dir/linklibs.rsp
 Proyecto_Programacion_II.exe: CMakeFiles/Proyecto_Programacion_II.dir/objects1.rsp
 Proyecto_Programacion_II.exe: CMakeFiles/Proyecto_Programacion_II.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto_Programacion_II.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto_Programacion_II.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto_Programacion_II.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/Proyecto_Programacion_II.dir/clean:
 .PHONY : CMakeFiles/Proyecto_Programacion_II.dir/clean
 
 CMakeFiles/Proyecto_Programacion_II.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\win10\Desktop\Proyecto-Progamacion-2022 C:\Users\win10\Desktop\Proyecto-Progamacion-2022 C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug C:\Users\win10\Desktop\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles\Proyecto_Programacion_II.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022 C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022 C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug C:\Users\mbarb\Escritorio\Proyecto-Progamacion-2022\cmake-build-debug\CMakeFiles\Proyecto_Programacion_II.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_Programacion_II.dir/depend
 

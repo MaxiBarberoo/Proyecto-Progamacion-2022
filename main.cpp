@@ -27,9 +27,10 @@ declarados (Sueldo)
 #include <iostream>
 #include "Sistema_de_gestion.h"
 
+
 using namespace std;
 
-int main(){
+int main() {
     int opcion = 0;
     int numCuenta = 1;
     Sistema_de_gestion S1;
@@ -39,11 +40,16 @@ int main(){
         cout << "2. Salir" << endl;
         cout << "ingresar opcion: ";
         cin >> opcion;
-    }while(opcion != 1 && opcion != 2);
+        cout << "\n\n";
+    } while (opcion != 1 && opcion != 2);
 
     switch (opcion) {
-        case 1: {break;}
-        case 2: {exit(0);}
+        case 1: {
+            break;
+        }
+        case 2: {
+            exit(0);
+        }
     }
 
     opcion = 0;
@@ -55,59 +61,77 @@ int main(){
         cout << "4. Salir" << endl;
         cout << "ingresar opcion: ";
         cin >> opcion;
+        cout << "\n\n";
 
-
-
-        switch(opcion){
-            case 1:
-            {
+        switch (opcion) {
+            case 1: {
                 int tipo_empleado = 0;
-                cout << "Que tipo de empleado se desea agregar? \n";
-                cout << "1. Profesional \n";
-                cout << "2. Administrativo \n";
-                cin >> tipo_empleado;
+                do {
+                    cout << "Que tipo de empleado se desea agregar? \n";
+                    cout << "1. Profesional \n";
+                    cout << "2. Administrativo \n";
+                    cin >> tipo_empleado;
+                } while (tipo_empleado != 1 && tipo_empleado != 2);
 
+                cout << "\n\n";
 
                 switch (tipo_empleado) {
-                    case 1:
-                    {
+                    case 1: {
                         S1.guardar_empleado_profesional(numCuenta);
                         opcion = 0;
                         numCuenta += 1;
-                        cout << "Empleado agregado correctamente. \n";
+                        cout << "Empleado agregado correctamente. \n\n";
                         break;
                     }
-                    case 2:
-                    {
+                    case 2: {
                         S1.guardar_empleado_administrativo(numCuenta);
                         opcion = 0;
                         numCuenta += 1;
-                        cout << "Empleado agregado correctamente. \n";
+                        cout << "Empleado agregado correctamente. \n\n";
                         break;
                     }
                 }
                 break;
             }
 
-            case 2:
-            {
+            case 2: {
                 S1.cambiar_estado_empleado();
+                cout << "\n\n";
                 opcion = 0;
                 break;
             }
 
-            case 3:
-            {
-                S1.Mostrar_empleado();
-                opcion = 0;
+            case 3: {
+                do {
+                    cout << "1.Visualizar todos los empleados" << endl;
+                    cout << "2.Visualizar Empelado por numero de cuenta" << endl;
+                    cin >> opcion;
+                } while (opcion != 1 && opcion != 2);
+
+                switch (opcion) {
+                    case 1: {
+                        S1.Mostrar_todos_empleados();
+                        cout << "\n\n";
+                        opcion = 0;
+                        break;
+                    }
+
+                    case 2: {
+                        S1.Mostrar_empleado();
+                        cout << "\n\n";
+                        opcion = 0;
+                        break;
+                    }
+                }
                 break;
             }
 
-            case 4:{exit(0);}
+            case 4: {
+                exit(0);
+            }
         }
 
-    }while(opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4 );
-
+    } while (opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4);
 
 
 }

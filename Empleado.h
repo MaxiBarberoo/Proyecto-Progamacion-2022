@@ -14,11 +14,9 @@ public:
 
     void set_cuenta(int numCuenta);
 
-    void cambiar_estado_cuenta();
-
     int get_num_cuenta();
+    void set_estado_cuenta(std::string estado);
 
-    Cuenta get_cuenta();
     int get_dni();
     float get_sueldo();
     std::string get_nombre();
