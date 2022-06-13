@@ -13,10 +13,12 @@ class Sistema_de_gestion {
 public:
     Sistema_de_gestion();
 
-    void guardar_empleado_administrativo(Administrativo);
-    void guardar_empleado_profesional(Profesional);
+    void guardar_empleado_administrativo(int);
+    void guardar_empleado_profesional(int);
 
-    void Mostrar_empleado(int);
+    void cambiar_estado_empleado();
+
+    void Mostrar_empleado();
 private:
     std::vector<Profesional> m_empleados_profesionales;
     std::vector<Administrativo> m_empleados_administrativos;

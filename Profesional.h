@@ -11,7 +11,12 @@
 
 class Profesional : public Empleado {
 public:
-    Profesional(int t_dni, float t_sueldo, std::string t_nombre, std::string t_mail, Cuenta t_cuenta, std::string t_titulo, std::string t_actividad, int t_anios_servicio);
+    Profesional(int t_dni, float t_sueldo, std::string t_nombre, std::string t_mail, std::string t_titulo, std::string t_actividad, int t_anios_servicio);
+
+    std::string get_titulo();
+    std::string get_actividad();
+
+    int get_anios_de_servicio();
 private:
     std::string m_titulo, m_activiad;
     int m_anios_servicio;

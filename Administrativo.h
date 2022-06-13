@@ -11,7 +11,9 @@
 
 class Administrativo : public Empleado {
 public:
-    Administrativo(int t_dni, float t_sueldo, std::string t_nmobre, std::string t_mail, Cuenta t_cuenta, std::string t_puesto);
+    Administrativo(int t_dni, float t_sueldo, std::string t_nmobre, std::string t_mail, std::string t_puesto);
+
+    std::string get_puesto();
 private:
     std::string m_puesto;
 };

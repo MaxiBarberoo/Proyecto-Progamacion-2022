@@ -12,7 +12,18 @@ class Empleado {
 public:
     Empleado(int t_dni, float t_sueldo, std::string t_nombre, std::string t_mail);
 
-    virtual void mostrar_empleado() const = 0;
+    void set_cuenta(int numCuenta);
+
+    void cambiar_estado_cuenta();
+
+    int get_num_cuenta();
+
+    Cuenta get_cuenta();
+    int get_dni();
+    float get_sueldo();
+    std::string get_nombre();
+    std::string get_mail();
+    std::string get_estado_cuenta();
 
 private:
     Cuenta m_cuenta;

@@ -31,6 +31,7 @@ using namespace std;
 
 int main(){
     int opcion = 0;
+    int numCuenta = 1;
     Sistema_de_gestion S1;
 
     do {
@@ -49,28 +50,64 @@ int main(){
 
     do {
         cout << "1. Agregar Empeleado" << endl;
-        cout << "2. Cambiar Esatado de un empleado" << endl;
+        cout << "2. Cambiar Estado de un empleado" << endl;
         cout << "3. Visualizar Empleado" << endl;
         cout << "4. Salir" << endl;
         cout << "ingresar opcion: ";
         cin >> opcion;
-    }while(opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4 );
 
-    switch(opcion){
-        case 1:
-        {
-            int tipo_empleado = 0;
-            cout << "Que tipo de empleado se desea agregar? \n";
-            cout << "1. Profesional \n";
-            cout << "2. Administrativo \n";
-            switch (tipo_empleado) {
-                case 1:
-                {
-                    S1.guardar_empleado();
+
+
+        switch(opcion){
+            case 1:
+            {
+                int tipo_empleado = 0;
+                cout << "Que tipo de empleado se desea agregar? \n";
+                cout << "1. Profesional \n";
+                cout << "2. Administrativo \n";
+                cin >> tipo_empleado;
+
+
+                switch (tipo_empleado) {
+                    case 1:
+                    {
+                        S1.guardar_empleado_profesional(numCuenta);
+                        opcion = 0;
+                        numCuenta += 1;
+                        cout << "Empleado agregado correctamente. \n";
+                        break;
+                    }
+                    case 2:
+                    {
+                        S1.guardar_empleado_administrativo(numCuenta);
+                        opcion = 0;
+                        numCuenta += 1;
+                        cout << "Empleado agregado correctamente. \n";
+                        break;
+                    }
                 }
+                break;
             }
 
+            case 2:
+            {
+                S1.cambiar_estado_empleado();
+                opcion = 0;
+                break;
+            }
+
+            case 3:
+            {
+                S1.Mostrar_empleado();
+                opcion = 0;
+                break;
+            }
+
+            case 4:{exit(0);}
         }
-    }
+
+    }while(opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4 );
+
+
 
 }

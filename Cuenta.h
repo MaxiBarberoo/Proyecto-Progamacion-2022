@@ -8,6 +8,10 @@
 class Cuenta {
 public:
     Cuenta();
+
+    void set_numCuenta(int numCuenta);
+
+    int get_num_cuenta();
 private:
     float m_saldo = 0;
     int m_num_cuenta = 0;
